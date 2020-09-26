@@ -1,0 +1,25 @@
+.users-container{
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    // background-color: #fafafa;
+    margin: auto;
+    padding: 20px;
+    ul{
+        list-style: none;
+        li::before{
+            content: "\2022";
+            color: greenyellow;
+            display: inline-block;
+            width: 16px;
+        }
+    }
+}
+@media only screen  and(max-width:425px){
+    .users-container{
+        flex-direction: inherit;
+        height: 100px;
+    }
+}

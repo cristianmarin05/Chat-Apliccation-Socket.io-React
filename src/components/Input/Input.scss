@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #41444b;
+    &__input{
+        width: 100%;
+        border: none;
+        height: 50px;
+        outline-style: none;
+    }
+    &__btn{
+        border: none;
+        background-color: #00B7C2;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+        outline-style: none;
+    }
+}

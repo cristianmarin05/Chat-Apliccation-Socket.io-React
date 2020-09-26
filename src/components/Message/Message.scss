@@ -1,0 +1,36 @@
+.message-container{
+    display: flex;
+    align-items: center;
+   
+    height: auto;
+    margin: 15px ;
+    padding: 10px;
+    p{
+        margin: 0;
+    }
+    &__start{
+        justify-content: flex-start;
+        width: fit-content;
+
+        &-box{
+            border-radius: 20px;
+            background-color: #d8d8d8;
+            padding: 15px;
+           
+        }
+    }
+    &__end{
+        justify-content: flex-end;
+       
+        width: fit-content;
+        margin: 0 0 0 auto;
+        &-box{
+            border-radius: 20px;
+            padding: 15px;
+
+            background-color: #00B7C2;
+            color: #fff;
+        }
+       
+    }
+}
